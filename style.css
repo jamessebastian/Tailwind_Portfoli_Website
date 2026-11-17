@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+::selection {
+    background: #c7d2fe;
+    color: #1e1b4b;
+}
+
+/* https://cdn-icons-png.flaticon.com/512/10456/10456439.png */

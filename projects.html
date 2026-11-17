@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10456/10456439.png" type="image/x-icon">
+    <title>James | Projects</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="bg-white text-slate-700">
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-white border-b border-slate-200">
+
+        <nav class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
+
+            <!-- Logo -->
+            <a href="index.html" class="text-xl font-bold text-slate-950">
+                James<span class="text-indigo-600">Portfolio</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex gap-6 text-sm">
+
+                <a href="index.html" class="hover:text-indigo-600">Home</a>
+                <a href="about.html" class="hover:text-indigo-600">About</a>
+                <a href="skills.html" class="hover:text-indigo-600">Skills</a>
+                <a href="projects.html" class="text-indigo-600 font-semibold">Projects</a>
+                <a href="achievements.html" class="hover:text-indigo-600">Achievements</a>
+                <a href="contact.html" class="hover:text-indigo-600">Contact</a>
+
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-button" class="md:hidden border border-slate-300 px-3 py-2 rounded-lg"
+                aria-expanded="false" aria-controls="mobile-menu">
+
+                Menu
+
+            </button>
+
+        </nav>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden px-5 pb-4">
+
+            <div class="flex flex-col gap-4 text-sm">
+
+                <a href="index.html" class="hover:text-indigo-600">Home</a>
+                <a href="about.html" class="hover:text-indigo-600">About</a>
+                <a href="skills.html" class="hover:text-indigo-600">Skills</a>
+                <a href="projects.html" class="text-indigo-600">Projects</a>
+                <a href="achievements.html" class="hover:text-indigo-600">Achievements</a>
+                <a href="contact.html" class="hover:text-indigo-600">Contact</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- PROJECTS HERO SECTION -->
+    <section class="bg-slate-50 py-20 md:py-28 px-5">
+
+        <div class="max-w-4xl mx-auto text-center">
+
+            <p class="text-indigo-600 uppercase tracking-widest text-sm font-semibold mb-4">
+                My Work
+            </p>
+
+            <h1 class="text-4xl sm:text-5xl font-bold text-slate-950">
+                My Projects
+            </h1>
+
+            <p class="text-slate-600 mt-6 leading-8 max-w-2xl mx-auto">
+                Here are some of the projects I have worked on.
+                Each project represents an opportunity to apply
+                my knowledge, explore new technologies, and
+                improve my development skills.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="max-w-6xl mx-auto px-5 py-20">
+
+        <!-- Section Heading -->
+        <div class="mb-12">
+
+            <p class="text-indigo-600 uppercase tracking-widest text-sm font-semibold mb-3">
+                What I've Built
+            </p>
+
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-950">
+                Featured Projects
+            </h2>
+
+        </div>
+
+
+        <!-- Project Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <!-- PROJECT 1 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+
+                <!-- Project Image -->
+                <img src="./assets/images/jamesStudio.png"
+                     class="w-full h-56 ">
+
+                <!-- Project Content -->
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-slate-950 mb-3">
+                        Photography Studio Website
+                    </h3>
+
+                    <p class="text-slate-600 text-sm leading-7 mb-5">
+                        A responsive photography studio website for showcasing different photographies and 
+                        showing different services and pricing details.
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            HTML
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            CSS
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            Tailwind
+                        </span>
+
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="flex gap-4 text-sm font-semibold">
+
+                        <a href="https://tailwindphotographywebsite.vercel.app/" target="_blank" class="text-indigo-600 hover:text-indigo-800">
+                            Live Demo →
+                        </a>
+
+                        <a href="https://github.com/jamessebastian/tailwind_photography_website" target="_blank" class="text-slate-600 hover:text-indigo-600">
+                            Source Code →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 2 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+
+                <!-- Project Image -->
+                <img src="./assets/images/jamesResort.png"
+                     class="w-full h-56 ">
+
+                <!-- Project Content -->
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-slate-950 mb-3">
+                        Resort Website
+                    </h3>
+
+                    <p class="text-slate-600 text-sm leading-7 mb-5">
+                        A Resort Website made from html,css and bootstrap showcasing different aspects of the resort and adventure.
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            Bootstrap
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            HTML
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            CSS
+                        </span>
+
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="flex gap-4 text-sm font-semibold">
+
+                        <a href="https://resortwebsite-ten.vercel.app/" target="_blank" class="text-indigo-600 hover:text-indigo-800">
+                            Live Demo →
+                        </a>
+
+                        <a href="https://github.com/jamessebastian/resortwebsite" target="_blank" class="text-slate-600 hover:text-indigo-600">
+                            Source Code →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 3 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+
+                <!-- Project Image -->
+                <img src="./assets/images/wanderway.png"
+                    alt="Web application development" class="w-full h-56 ">
+
+                <!-- Project Content -->
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-slate-950 mb-3">
+                        Wanderway Adventure Website
+                    </h3>
+
+                    <p class="text-slate-600 text-sm leading-7 mb-5">
+                        A web application concept made for people who love to travel
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            html
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            css
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            bootstrap
+                        </span>
+
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="flex gap-4 text-sm font-semibold">
+
+                        <a href="https://wander2-pi.vercel.app/index.html" target="_blank" class="text-indigo-600 hover:text-indigo-800">
+                            Live Demo →
+                        </a>
+
+                        <a href="https://github.com/jamessebastian/WanderWay" target="_blank" class="text-slate-600 hover:text-indigo-600">
+                            Source Code →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 4 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+
+                <!-- Project Image -->
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=85"
+                    alt="Cloud computing technology" class="w-full h-56 object-cover">
+
+                <!-- Project Content -->
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-slate-950 mb-3">
+                        Cloud Computing Project
+                    </h3>
+
+                    <p class="text-slate-600 text-sm leading-7 mb-5">
+                        A cloud computing project exploring
+                        cloud infrastructure, application
+                        deployment, and cloud-based services.
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            Cloud Computing
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            Cloud Services
+                        </span>
+
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="flex gap-4 text-sm font-semibold">
+
+                        <a href="https://example.com" target="_blank" class="text-indigo-600 hover:text-indigo-800">
+                            Live Demo →
+                        </a>
+
+                        <a href="https://github.com" target="_blank" class="text-slate-600 hover:text-indigo-600">
+                            Source Code →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 5 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+
+                <!-- Project Image -->
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=85"
+                    alt="Mobile application interface" class="w-full h-56 object-cover">
+
+                <!-- Project Content -->
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-slate-950 mb-3">
+                        Responsive Web Design
+                    </h3>
+
+                    <p class="text-slate-600 text-sm leading-7 mb-5">
+                        A responsive website interface designed
+                        to provide a consistent browsing
+                        experience across mobile, tablet,
+                        and desktop devices.
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            HTML
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            Tailwind CSS
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            JavaScript
+                        </span>
+
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="flex gap-4 text-sm font-semibold">
+
+                        <a href="https://example.com" target="_blank" class="text-indigo-600 hover:text-indigo-800">
+                            Live Demo →
+                        </a>
+
+                        <a href="https://github.com" target="_blank" class="text-slate-600 hover:text-indigo-600">
+                            Source Code →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT 6 -->
+            <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition">
+
+                <!-- Project Image -->
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
+                    alt="Data visualization project" class="w-full h-56 object-cover">
+
+                <!-- Project Content -->
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-slate-950 mb-3">
+                        Data Visualization
+                    </h3>
+
+                    <p class="text-slate-600 text-sm leading-7 mb-5">
+                        A project concept focused on presenting
+                        information through visual charts,
+                        statistics, and organized data.
+                    </p>
+
+                    <!-- Technologies -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            JavaScript
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            HTML
+                        </span>
+
+                        <span class="bg-indigo-50 text-indigo-700 px-3 py-1 rounded-lg text-xs">
+                            CSS
+                        </span>
+
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="flex gap-4 text-sm font-semibold">
+
+                        <a href="https://example.com" target="_blank" class="text-indigo-600 hover:text-indigo-800">
+                            Live Demo →
+                        </a>
+
+                        <a href="https://github.com" target="_blank" class="text-slate-600 hover:text-indigo-600">
+                            Source Code →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="bg-slate-50 py-20 px-5">
+
+        <div class="max-w-3xl mx-auto text-center">
+
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-950">
+                Have a Project in Mind?
+            </h2>
+
+            <p class="text-slate-600 mt-5 leading-8">
+                I'm always interested in exploring new ideas,
+                learning new technologies, and working on
+                meaningful projects.
+            </p>
+
+            <a href="contact.html" class="inline-block
+                mt-8
+                bg-indigo-600
+                text-white 
+                px-7
+                py-3
+                rounded-xl
+                text-sm
+                font-semibold
+                hover:bg-indigo-700
+                transition
+                ">
+                Get In Touch
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-200">
+
+        <div class="max-w-6xl mx-auto px-5 py-7 text-center sm:flex sm:justify-between text-sm text-slate-500">
+
+            <p>
+                © 2026 James Sebastian. All rights reserved.
+            </p>
+
+            <p class="mt-2 sm:mt-0">
+                Designed with Tailwind CSS.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        const menuButton = document.getElementById("menu-button");
+
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuButton.addEventListener("click", () => {
+
+            const isOpen =
+                menuButton.getAttribute("aria-expanded") === "true";
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                String(!isOpen)
+            );
+
+            mobileMenu.classList.toggle("hidden");
+
+        });
+    </script>
+
+</body>
+
+</html>
